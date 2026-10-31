@@ -1,0 +1,1 @@
+Add hardware_tests.png from your 106/106 passing hardware test terminal output.

@@ -1,0 +1,6 @@
+set_property -dict {PACKAGE_PIN E3 IOSTANDARD LVCMOS33} [get_ports {CLK100MHZ}]
+create_clock -period 10.000 [get_ports {CLK100MHZ}]
+set_property -dict {PACKAGE_PIN A9 IOSTANDARD LVCMOS33} [get_ports {uart_rx_pin}]
+set_property -dict {PACKAGE_PIN D10 IOSTANDARD LVCMOS33} [get_ports {uart_tx_pin}]
+set_property -dict {PACKAGE_PIN D9 IOSTANDARD LVCMOS33} [get_ports {btn0}]
+set_property -dict {PACKAGE_PIN H5 IOSTANDARD LVCMOS33} [get_ports {led0}]

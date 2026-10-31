@@ -1,0 +1,1 @@
+Copy utilization.rpt and timing_summary.rpt exported from Vivado into this folder.
